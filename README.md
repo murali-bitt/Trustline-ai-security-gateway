@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TRUSTLINE — AI Security Gateway
 
 *A lightweight security gateway that helps prevent sensitive-data leakage through AI applications.*
@@ -154,3 +155,4 @@ Planned judge scenarios. **None can run yet**, and all data used will be synthet
 ## Security Limitations
 
 TRUSTLINE reduces the risk of AI data leakage. It does not eliminate it. Detectors will miss some novel prompt injections, unknown secret formats, low-entropy passwords and non-English PII. They will also flag some benign input. Prompt filtering alone cannot solve prompt injection, which is why authorization and egress inspection must hold even when Tier 2 misses. Authorization is only as strong as its server-side enforcement: if roles are trusted from the client or filtering happens after retrieval, the core control fails. Canary checks are a tripwire. A match proves exposure, but paraphrased, translated or encoded leaks will not match. Detection quality and the 60 ms overhead target remain unproven until the benchmark produces measured results. None of this is production-ready.
+=======
